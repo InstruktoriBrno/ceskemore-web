@@ -1,0 +1,201 @@
+body{
+
+	background:url('images/background2.html') no-repeat center bottom;
+}
+a{
+	color:blue;
+}
+a:hover{
+	color:orange;
+}
+#all{
+	width:940px;
+	margin:0 auto;
+        /*margin: 20px 20px 20px 18px auto;*/
+	font-family: tahoma;
+	font-size:15px;
+	padding:0px;
+	padding-bottom:50px;
+        border-width: 2px; border-style: solid; border-color: silver;
+
+	/*background-color: #FFFFFF;/*#B6CBF5;*/
+	overflow:hidden;
+}
+
+#header{
+	width:940px;
+	height:426px;
+	float:left;
+	margin:0px 0px 10px 0px;
+	padding:0px;
+	background-image: url('pozadi_newa.jpg');
+	background-repeat:no-repeat;
+	background-position:center top;
+	/*background-color: #B62198;*/
+}
+
+#logo{
+        width:180px;
+        height:280px;
+        float:right;
+        margin:0px 30px 10px 0px;
+	padding:0px;
+	background-image: url('logo_is.jpg');
+        background-position:center bottom;
+        background-repeat:no-repeat;
+      
+        text-align: center;
+}
+
+#logo a{      
+        color:navy;
+	text-decoration:none;
+}
+
+#logo a:hover{
+	text-decoration:underline;
+	color:orange;
+}
+
+#menu{
+	width:170px;
+	float:left;
+	margin: 0px 30px 0px 0px;
+	padding:10px;
+	padding-left:10px;
+	text-align: center;
+	position:relative;
+
+	top:-165px;
+}
+#menu ul{
+	list-style-type:none;
+	font-size:18px;
+	font-weight:bold;
+}
+#menu ul li{
+	display:block;
+	margin-bottom:20px;
+}
+#menu ul li a{
+	color:navy;
+	text-decoration:none;
+}
+#menu ul li a:hover{
+	text-decoration:underline;
+	color:orange;
+}
+/*#bg_top{
+	background-image: url('images/bg_top.png');
+	height:27px;
+	width:670px;
+	position:relative;
+	left:-40px;
+	top:-27px;
+}
+#bg_bottom{
+	background-image: url('images/bg_bottom.png');
+	height:27px;
+	width:670px;
+	position:relative;
+	left:-40px;
+	top:27px;
+}*/
+#content{
+	width:480px;
+	float:left;
+	margin:20px 0px 0px 0px;
+	padding:0px 8px 0px 0px;
+	//padding-top: 0px;
+	/*background-image: url('images/bg_side.png');*/
+	background-repeat:repeat-y;
+        background-color: white;
+        
+        position:relative;
+        
+	top:-150px;
+        text-align:justify;
+        
+}
+#content #text{
+	margin-top:-42px;
+	
+}
+/*#content img{
+	margin:5px;
+}*/
+
+#tym img{
+        border:3px groove orange;
+	margin:0px;
+        width:130px;
+}
+
+#tym img:hover{
+	border:5px groove red;
+}
+
+#tym .bab{
+	position:absolute; top: 5px; left: 5px;
+}
+
+#tym .blo{
+	position:absolute; top: 5px; left: 158px;
+}
+
+#tym .bob{
+	position:absolute; top: 5px; left: 311px;
+}
+
+#tym .mat{
+	position:absolute; top: 158px; left: 5px;
+}
+
+#tym .mis{
+	position:absolute; top: 158px; left: 158px;
+}
+
+#tym .nil{
+	position:absolute; top: 158px; left: 311px;
+}
+
+#tym .sil{
+	position:absolute; top: 311px; left: 5px;
+}
+
+#tym .tin{
+	position:absolute; top: 311px; left: 158px;
+}
+
+#tym .eli{
+	position:absolute; top: 311px; left: 311px;
+}
+
+#profil img{
+        //float:right;
+        position:absolute; top:-84px; left:-41px;
+        
+        border:3px solid red;
+	margin:10px;
+        width:240px;
+        
+}
+
+#profil #text{
+        position:relative; top:0px; left:230px;
+        align:right;
+	width:250px;
+       
+	
+}
+
+
+#plakat img{
+        //float:right;
+        position:relative; top:-70px; left:-45px;
+        
+        margin-top:100px;
+	margin:50px;
+        width:400px;
+        
+}
